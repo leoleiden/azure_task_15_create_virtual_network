@@ -1,0 +1,20 @@
+{
+    "virtualNetwork": {
+        "name": "todoapp",
+        "addressSpace": "10.20.30.0/24"
+    },
+    "subnets": [
+        {
+            "name": "webservers",
+            "addressRange": "10.20.30.0/26"
+        },
+        {
+            "name": "database",
+            "addressRange": "10.20.30.64/26"
+        },
+        {
+            "name": "management",
+            "addressRange": "10.20.30.128/26"
+        }
+    ]
+}
